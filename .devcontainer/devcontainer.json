@@ -1,0 +1,20 @@
+{
+    "name": "onedrive-watch",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "containerEnv": {
+        
+    },
+    "mounts": [
+        
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+            "ms-python.pylint"
+            ]
+        }
+    }
+}
